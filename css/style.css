@@ -1444,9 +1444,10 @@ span.section-badge {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 10px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  gap: 15px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      
 }
 
 .connect-social-link {
@@ -1851,12 +1852,14 @@ span.section-badge {
 
   .faq-title {
     font-size: 30px;
-    line-height: 1px;
+    line-height: 36px;
+    font-weight:900 ;
   }
 
   .faq-section .section-subtitle {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
     padding: 0 12px;
   }
 
